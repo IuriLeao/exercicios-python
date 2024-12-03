@@ -1,0 +1,6 @@
+n = input('Digite algo: ')
+print('Tem só numero?', n.isnumeric())
+print('Tem só letra?', n.isalpha())
+print('Tem entra e numero?', n.isalnum())
+
+

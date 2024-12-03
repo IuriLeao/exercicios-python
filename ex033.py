@@ -1,0 +1,6 @@
+n1 = int(input('Me diga um numero'))
+n2 = int(input('Me diga outro numero'))
+n3 = int(input('Me diga mais um '))
+maior = max(n1, n2, n3)
+menor = min(n1, n2, n3)
+print(f"O maior numero é {maior} e o menor numero é {menor}")
